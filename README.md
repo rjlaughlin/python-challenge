@@ -23,23 +23,3 @@ The PyPoll script analyzes election voting data from a CSV file containing "Vote
 - The winner of the election based on popular vote.
 
 The election results are printed in the terminal and exported to a text file.
-
-## Folder Structure
-
-```plaintext
-python-challenge/
-│
-├── PyBank/
-│   ├── Resources/
-│   │   └── budget_data.csv        # Financial dataset for analysis
-│   ├── analysis/
-│   │   └── budget_analysis.txt    # Results from PyBank analysis
-│   └── main.py                    # Main script for PyBank
-│
-├── PyPoll/
-│   ├── Resources/
-│   │   └── election_data.csv      # Poll dataset for analysis
-│   ├── analysis/
-│   │   └── election_analysis.txt    # Results from PyPoll analysis
-│   └── main.py                    # Main script for PyPoll
-└── README.md                      # This README file
