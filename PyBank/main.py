@@ -2,9 +2,10 @@
 import csv
 import os
 
+file_directory = os.path.dirname(__file__) #Find directory of script. Reference 1 in README file.
 # Files to load and output
-file_to_load = os.path.join("Resources", "budget_data.csv")  # Input file path
-file_to_output = os.path.join("analysis", "budget_analysis.txt")  # Output file path
+file_to_load = os.path.join(file_directory,"Resources", "budget_data.csv")  # Input file path
+file_to_output = os.path.join(file_directory,"analysis", "budget_analysis.txt")  # Output file path
 
 # Define variables to track the financial data
 total_months = 0
