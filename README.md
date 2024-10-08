@@ -23,3 +23,7 @@ The PyPoll script analyzes election voting data from a CSV file containing "Vote
 - The winner of the election based on popular vote.
 
 The election results are printed in the terminal and exported to a text file.
+
+## References
+
+1. `file_directory = os.path.dirname(__file__)`: This code snippet is used to find the directory of the current script. Source: [GeeksforGeeks](https://www.geeksforgeeks.org/how-to-get-directory-of-current-script-in-python/)
